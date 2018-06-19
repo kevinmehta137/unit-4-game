@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Unit-4-game</title>
+        <!-- Include Boostrap CSS -->
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="./assets/css/style.css" >
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+         <!-- Include the game javascript file -->
+        <script src="assets/javascript/game.js"></script>
+    </head>
+    <body>
+        <!-- Top greeting and instructions-->
+        <div class="jumbotron text-center">
+            <img src="./assets/images/logo.png" id="img">
+            <h1>Welcome to Crystal Game</h1>
+        
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <!-- Left Side Column -->
+                <div class="col-lg-4">
+                      
+                        <div class="text-center">
+                            <div class="card-body">
+                                    <img src="./assets/images/Asset 1.png" id="one"width="100px"height="100px">
+                            </div>
+                        </div>
+                        <!-- Losses -->
+                        <div class=" box-shadow  text-center">
+                            <div class="card-body">
+                                    <img src="./assets/images/Asset 2.png" id="two" width="100px"height="100px">    
+                            </div>
+                        </div>
+                        <!-- Guesses -->
+                        <div class=" shadow text-center">
+                            <div class="card-body">
+                                    <img src="./assets/images/Asset 3.png" id="three" width="100px"height="100px">   
+                            </div>
+                        </div>
+                </div>
+                <div class="col-lg-8">
+                        <div class="card shadow p-3 mb-5 bg-white rounded size text-center">
+                                <div class="card-body">
+                                        <h3><span id= "randomNumber"></span></h3> 
+                                </div>
+                        </div>
+                </div>
+                <div class="col-lg-8 final" >
+                        <div class="card shadow p-3 mb-5 bg-white rounded size1 text-center">
+                                <div class="card-body">
+                                        <h2>Wins:
+                                                <span id= "numberWins"></span>
+                                                </br>
+                                                Losses: 
+                                                <span id= "numberLosses"></span>
+                                            </h2>
+                                </div>
+                        </div>
+                </div>
+                <div class="col-lg-8 final1">
+                        <div class="card shadow p-3 mb-5 bg-white rounded size1 text-center">
+                                <div class="card-body ">
+                                        <h2><span id="finalTotal"></span></h2>
+                                </div>
+                        </div>
+                </div>
+                <!-- Right Side Column -->
+
+            </div>
+        </div>
+    </body>
+    
+</html>
